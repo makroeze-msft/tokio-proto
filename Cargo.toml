@@ -24,11 +24,11 @@ exclude       = [
 [dependencies]
 futures = "0.1.14"
 log = "0.3.6"
-net2 = "0.2"
+net2 = {path = "../net2-rs"}
 smallvec = "0.4.0"
-tokio-core = "0.1.8"
+tokio-core = {path = "../tokio-core"}
 tokio-service = "0.1"
-tokio-io = "0.1"
+tokio-io = {path = "../tokio/tokio-io"}
 
 [dev-dependencies]
 bytes = "0.4"
